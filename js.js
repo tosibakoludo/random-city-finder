@@ -23,5 +23,6 @@ function ispisi(name, webImg) {
     document.querySelector("#city span").style.color = "red";
     let img = document.createElement("img");
     img.src = webImg;
+    img.alt = name;
     city.after(img);
 }
